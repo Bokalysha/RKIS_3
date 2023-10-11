@@ -33,7 +33,7 @@ public class AppConfig {
      */
     @Bean(initMethod = "init", destroyMethod = "cleanup")
     public CashRegister cashBean() {
-        return new CashRegister(199.99);
+        return new CashRegister();
     }
 
     /**
