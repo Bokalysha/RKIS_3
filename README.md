@@ -24,11 +24,11 @@ _Вариант №2: Магазин._
 ```
 mvn -version
 ```
-3. Cкомпилировать проект
+3. Собрать проект
 ```
-mvn compile
+mvn package
 ```
 4. Запустить программу
 ```
-mvn exec:java
+java -jar target/Prac_3.jar 
 ```
