@@ -19,7 +19,7 @@
 _Вариант №2: Магазин._
 
 **Сборка проекта:**
-1. Загрузить содержимое папки [Prac_2](https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/Bokalysha/RKIS/tree/main/Practice/Prac_2/src)
+1. Распаковать проект
 2. Перейдя в дирректорию, в которой находится работа, проверить наличие [Maven](https://maven.apache.org/download.cgi)
 ```
 mvn -version
