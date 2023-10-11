@@ -1,5 +1,7 @@
 package bokalysha.dependences;
 
+import org.springframework.beans.factory.annotation.Value;
+
 /**
  * Класс CashRegister представляет объект кассового аппарата, в котором хранятся деньги.
  * Он реализует интерфейс ObjectInformation.
@@ -42,6 +44,7 @@ public class CashRegister implements ObjectInformation {
      *
      * @param money новая сумма денег в кассовом аппарате.
      */
+    @Value("${money}")
     public void setMoney(double money) {
         this.money = money;
     }
